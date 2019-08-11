@@ -1,3 +1,9 @@
+<?php
+
+/* @var $data */
+
+?>
+
 <div class="container mt-3">
     <div class="card" style="width: 18rem;">
         <div class="card-body">
