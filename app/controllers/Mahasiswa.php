@@ -50,7 +50,7 @@ class Mahasiswa extends Controller {
     }
 
     public function ubah(){
-        if($this->model('Mahasiswa_model')->ubahDataMahasiswa($id) > 0){
+        if($this->model('Mahasiswa_model')->ubahDataMahasiswa($_POST) > 0){
             Flasher::setFlash('berhasil', 'diubah', 'success');
             header('Location: '.BASEURL.'/mahasiswa');
             exit();
